@@ -13,7 +13,12 @@ EXECS = hello    \
 		copy01   \
 		ex0106   \
 	    ex0107   \
-		count00	
+		count00  \
+	    count01  \
+	    lnct00   \
+	    ex0108   \
+	    ex0109   \
+	    ex0110	
 
 all: $(EXECS)
 	$(info build done for: $(EXECS))
