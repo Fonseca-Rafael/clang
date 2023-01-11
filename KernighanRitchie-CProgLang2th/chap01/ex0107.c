@@ -3,9 +3,5 @@
 /* copy input to output; 1st version */
 main()
 {
-    int c;
-    while((c = getchar()) != EOF){
-        putchar(c);
-    }
-    putchar(c);
+   printf("EOF as int %d, EOF as char %c\n", EOF, EOF);
 }    
