@@ -6,16 +6,14 @@ main()
     int     c;
     char    stat;
 
-    while((c = getchar()) != EOF){
-        putchar(c);
+    while(stat=((c = getchar()) != EOF)){
+        
+        /* avoiding showing breaklines */
         if(c != '\n'){
-            stat = '0' + (c != EOF); 
-            putchar('=');
-            putchar(stat);
+            putchar(c);
+            printf(" -- status = %d\n", stat);
         }
     }
-    stat = '0' + (c != EOF); 
-    putchar(c);
-    putchar('=');
-    putchar(stat);
+    /* ctrl-D only */
+    printf(" -- status = %d\n", stat);
 }    
