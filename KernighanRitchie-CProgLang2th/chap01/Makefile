@@ -20,7 +20,9 @@ EXECS = hello    \
 	    ex0109   \
 	    ex0110   \
 	    wc       \
-	    ex0112	
+	    ex0112   \
+		digit_count \
+	    ex0113	
 
 all: $(EXECS)
 	$(info build done for: $(EXECS))
