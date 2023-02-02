@@ -18,7 +18,9 @@ EXECS = hello    \
 	    lnct00   \
 	    ex0108   \
 	    ex0109   \
-	    ex0110	
+	    ex0110   \
+	    wc       \
+	    ex0112	
 
 all: $(EXECS)
 	$(info build done for: $(EXECS))

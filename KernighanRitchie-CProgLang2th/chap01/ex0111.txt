@@ -1,0 +1,6 @@
+This code does not cover punctuation marks. 
+
+E.g: 
+this,word or this.word 
+
+Both results in only one word
