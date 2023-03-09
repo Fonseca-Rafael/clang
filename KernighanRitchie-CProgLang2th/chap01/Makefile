@@ -22,7 +22,10 @@ EXECS = hello    \
 	    wc       \
 	    ex0112   \
 		digit_count \
-	    ex0113	
+	    ex0113      \
+	    power       \
+	    ex0115      \
+	    longest_line	
 
 all: $(EXECS)
 	$(info build done for: $(EXECS))
