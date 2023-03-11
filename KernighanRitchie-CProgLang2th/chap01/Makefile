@@ -20,12 +20,16 @@ EXECS = hello    \
 	    ex0109   \
 	    ex0110   \
 	    wc       \
-	    ex0112   \
-		digit_count \
-	    ex0113      \
-	    power       \
-	    ex0115      \
-	    longest_line	
+	    ex0112       \
+		digit_count  \
+	    ex0113       \
+	    power        \
+	    ex0115       \
+	    longest_line \
+	    ex0116       \
+	    ex0117       \
+	    ex0118       \
+	    ex0119	
 
 all: $(EXECS)
 	$(info build done for: $(EXECS))
